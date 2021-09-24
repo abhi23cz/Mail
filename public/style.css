@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.myform{
+    margin-top:65px;
+    
+}
+
+
+
+body{
+    background: url(bg1.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 100%;
+    
+  
+}
+
+/* .mb-3{
+
+    margin-left: 300px;
+    margin-top: 200px;
+} */
+
+.btn-group {
+    margin-left: 55%;
+
+}
+
+.fluid{
+    width: 8%;
+    height:auto;
+    margin-left: 28%;
+}
+
+.form-control{
+    width:22%;
+    margin-left: 250px;
+    margin-top: 70px;
+}
+
+.btn{
+    margin-left: 250px;margin-top:45px;
+}
+
+
