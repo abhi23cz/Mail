@@ -4,6 +4,8 @@ const path = require('path')
 const multer = require('multer')
 var nodemailer = require("nodemailer");
 
+const port= process.env.PORT || 8000
+
 let ts = Date.now();
 
 let date_ob = new Date(ts);
@@ -84,6 +86,6 @@ app.post('/upload', upload.array('zrffile', 12), function (req, res, next) {
 
   })
 
-app.listen(80, () =>{
+app.listen(port, () =>{
     console.log("Started Server on port 80")
 })
